@@ -1,0 +1,58 @@
+img{
+    max-width: 100%;
+}
+
+.gallery{
+    padding: 30px;
+}
+
+.gallery img{
+    cursor: pointer;
+}
+
+#gallery-modal .modal-img{
+    width: 100%;
+}
+
+footer{
+    background-color: rgb(18, 17, 27);
+    height: 50px;
+    color: white;
+    text-align: center;    
+    padding-top: 15px;
+}
+
+h3{
+    color: white;
+    text-align: center;   
+}
+
+.col-md-3{
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+
+.col:hover{
+    transform: scale(1.2);
+}
+
+col{
+    transition: 2s;
+}
+
+.fa-brands:hover{
+    background-color:  white;
+    opacity: 30%;
+}
+.fa-brands{
+    transition: 0.5s;
+}
+
+.h-100:hover{
+    opacity: 1;
+}
+.h-100{
+    transition all: 0.2s ease-in-out;
+}
